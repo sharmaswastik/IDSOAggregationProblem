@@ -1,5 +1,6 @@
 ## README
 # IDSOAggregationProblem
+
 [![DOI](https://zenodo.org/badge/1094248281.svg)](https://doi.org/10.5281/zenodo.17582537)
 
 The paper cited below [1], consitutes the main documentation of this repository. The methodology employed to build this repository is explained in detail in the paper. This repository contains all the relevant code, data files, scripts and documentation of this paper. 
