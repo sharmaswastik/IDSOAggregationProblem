@@ -1,0 +1,7 @@
+set logfile C:\Model\IDSOAggregationProblem\PyomoTempFiles\tmpvdwa_958.cplex.log
+set mip tolerances mipgap 0.001
+read C:\Model\IDSOAggregationProblem\PyomoTempFiles\tmpwy6ail30.pyomo.lp
+display problem stats
+optimize
+write C:\Model\IDSOAggregationProblem\PyomoTempFiles\tmpbxr19i2f.cplex.sol
+quit

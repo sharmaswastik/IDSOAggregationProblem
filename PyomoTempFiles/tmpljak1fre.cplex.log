@@ -1,0 +1,43 @@
+Solver command line: ['C:\\Program Files\\IBM\\ILOG\\CPLEX_Studio2211\\cplex\\bin\\x64_win64\\cplex.exe']
+
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 22.1.1.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
+Copyright IBM Corp. 1988, 2022.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> Logfile 'cplex.log' closed.
+Logfile 'C:\Model\IDSOAggregationProblem\PyomoTempFiles\tmpljak1fre.cplex.log' open.
+CPLEX> New value for mixed integer optimality gap tolerance: 0.001
+CPLEX> Problem 'C:\Model\IDSOAggregationProblem\PyomoTempFiles\tmpbvg59zj2.pyomo.lp' read.
+Read time = 0.00 sec. (0.51 ticks)
+CPLEX> Problem name         : C:\Model\IDSOAggregationProblem\PyomoTempFiles\tmpbvg59zj2.pyomo.lp
+Objective sense      : Minimize
+Variables            :    1882  [Fix: 7,  Box: 375,  Free: 1500]
+Objective nonzeros   :       4
+Linear constraints   :    1875  [Equal: 1875]
+  Nonzeros           :   30621
+  RHS nonzeros       :     393
+
+Variables            : Min LB: 0.000000         Max UB: 4.000000       
+Objective nonzeros   : Min   : 833.3333         Max   : 111741.0       
+Linear constraints   :
+  Nonzeros           : Min   : 1.303605e-06     Max   : 1.000000       
+  RHS nonzeros       : Min   : 0.0009826295     Max   : 1.060900       
+CPLEX> Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+CPXPARAM_MIP_Tolerances_MIPGap                   0.001
+Tried aggregator 1 time.
+LP Presolve eliminated 1875 rows and 1882 columns.
+All rows and columns eliminated.
+Presolve time = 0.02 sec. (3.23 ticks)
+
+Dual simplex - Optimal:  Objective = -1.0339725000e+05
+Solution time =    0.02 sec.  Iterations = 0 (0)
+Deterministic time = 5.24 ticks  (349.13 ticks/sec)
+
+CPLEX> Solution written to file 'C:\Model\IDSOAggregationProblem\PyomoTempFiles\tmpzqpzzjes.cplex.sol'.
+CPLEX> 

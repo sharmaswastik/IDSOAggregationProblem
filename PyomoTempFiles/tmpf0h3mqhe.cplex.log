@@ -1,0 +1,59 @@
+Solver command line: ['C:\\Program Files\\IBM\\ILOG\\CPLEX_Studio2211\\cplex\\bin\\x64_win64\\cplex.exe']
+
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 22.1.1.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
+Copyright IBM Corp. 1988, 2022.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> Logfile 'cplex.log' closed.
+Logfile 'C:\Model\IDSOAggregationProblem\PyomoTempFiles\tmpf0h3mqhe.cplex.log' open.
+CPLEX> New value for mixed integer optimality gap tolerance: 0.001
+CPLEX> Problem 'C:\Model\IDSOAggregationProblem\PyomoTempFiles\tmp8d9ecfke.pyomo.lp' read.
+Read time = 0.02 sec. (0.83 ticks)
+CPLEX> Problem name         : C:\Model\IDSOAggregationProblem\PyomoTempFiles\tmp8d9ecfke.pyomo.lp
+Objective sense      : Minimize
+Variables            :    2105  [Fix: 6,  Box: 599,  Free: 1500]
+Objective nonzeros   :     227
+Linear constraints   :    6375  [Less: 4500,  Equal: 1875]
+  Nonzeros           :   40211
+  RHS nonzeros       :    4678
+
+Variables            : Min LB: 0.000000         Max UB: 1.102500       
+Objective nonzeros   : Min   : 121.6000         Max   : 983.9000       
+Linear constraints   :
+  Nonzeros           : Min   : 1.303605e-06     Max   : 1.000000       
+  RHS nonzeros       : Min   : 0.01500000       Max   : 20.49000       
+CPLEX> Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+CPXPARAM_MIP_Tolerances_MIPGap                   0.001
+Parallel mode: deterministic, using up to 24 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 22 threads...
+ * Starting primal Simplex on 1 thread...
+Tried aggregator 1 time.
+LP Presolve eliminated 3741 rows and 687 columns.
+Aggregator did 488 substitutions.
+Reduced LP has 2146 rows, 930 columns, and 22030 nonzeros.
+Presolve time = 0.00 sec. (12.35 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Scaled dual infeas =          2500.000000
+Iteration:    75   Dual objective     =       -169797.083750
+Perturbation started.
+Iteration:   126   Dual objective     =       -169797.083750
+Removing perturbation.
+
+Dual simplex solved model.
+
+
+Dual simplex - Optimal:  Objective = -1.3421975274e+05
+Solution time =    0.02 sec.  Iterations = 216 (74)
+Deterministic time = 32.10 ticks  (2140.09 ticks/sec)
+
+CPLEX> Solution written to file 'C:\Model\IDSOAggregationProblem\PyomoTempFiles\tmp1oil94m2.cplex.sol'.
+CPLEX> 

@@ -1,0 +1,4 @@
+F_BUS,T_BUS,ThermalCap,Length,Config
+0,1,500,1,9
+1,2,250,1,9
+1,3,250,1,9

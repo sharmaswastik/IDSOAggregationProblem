@@ -1,0 +1,54 @@
+Solver command line: ['C:\\Program Files\\IBM\\ILOG\\CPLEX_Studio2211\\cplex\\bin\\x64_win64\\cplex.exe']
+
+
+Welcome to IBM(R) ILOG(R) CPLEX(R) Interactive Optimizer 22.1.1.0
+  with Simplex, Mixed Integer & Barrier Optimizers
+5725-A06 5725-A29 5724-Y48 5724-Y49 5724-Y54 5724-Y55 5655-Y21
+Copyright IBM Corp. 1988, 2022.  All Rights Reserved.
+
+Type 'help' for a list of available commands.
+Type 'help' followed by a command name for more
+information on commands.
+
+CPLEX> Logfile 'cplex.log' closed.
+Logfile 'C:\Model\IDSOAggregationProblem\PyomoTempFiles\tmp_bt1zj0d.cplex.log' open.
+CPLEX> New value for mixed integer optimality gap tolerance: 0.001
+CPLEX> Problem 'C:\Model\IDSOAggregationProblem\PyomoTempFiles\tmpi2bf3cm5.pyomo.lp' read.
+Read time = 0.00 sec. (0.54 ticks)
+CPLEX> Problem name         : C:\Model\IDSOAggregationProblem\PyomoTempFiles\tmpi2bf3cm5.pyomo.lp
+Objective sense      : Minimize
+Variables            :    2331  [Fix: 6,  Box: 825,  Free: 1500]
+Objective nonzeros   :     453
+Linear constraints   :    1875  [Equal: 1875]
+  Nonzeros           :   31871
+  RHS nonzeros       :     178
+
+Variables            : Min LB: 0.000000         Max UB: 4.000000       
+Objective nonzeros   : Min   : 39.00000         Max   : 983.9000       
+Linear constraints   :
+  Nonzeros           : Min   : 1.303605e-06     Max   : 1.000000       
+  RHS nonzeros       : Min   : 0.01500000       Max   : 1.060900       
+CPLEX> Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+CPXPARAM_MIP_Tolerances_MIPGap                   0.001
+Tried aggregator 1 time.
+LP Presolve eliminated 557 rows and 563 columns.
+Aggregator did 652 substitutions.
+Reduced LP has 666 rows, 1116 columns, and 25161 nonzeros.
+Presolve time = 0.02 sec. (10.24 ticks)
+Symmetry aggregator did 226 additional substitutions.
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Scaled dual infeas =          2500.000000
+Iteration:    58   Dual objective     =       -218629.750000
+
+Dual crossover.
+  Dual:  Fixed no variables.
+  Primal:  Fixed no variables.
+
+Dual simplex - Optimal:  Objective = -2.1862975000e+05
+Solution time =    0.02 sec.  Iterations = 58 (57)
+Deterministic time = 21.08 ticks  (1405.39 ticks/sec)
+
+CPLEX> Solution written to file 'C:\Model\IDSOAggregationProblem\PyomoTempFiles\tmpaf0yy9yg.cplex.sol'.
+CPLEX> 
