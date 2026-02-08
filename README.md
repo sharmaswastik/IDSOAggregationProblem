@@ -11,4 +11,5 @@ The repository is licensed under the BSD 3-Clause ("New" or "Revised") License, 
 
 
 [1] Sharma, S., Battula, S. and Singh, S.N., 2025. IDSO-Managed Bid-Based Transactive Distribution Systems Design for DER Participation in Wholesale Markets While Preserving TD Interactions. arXiv preprint arXiv:2508.08187. Available: https://arxiv.org/abs/2508.08187
+
 [2] S. Sharma, S. Battula and S. N. Singh, "IDSO-Managed Bid-Based Transactive Design for DER Participation in Wholesale Markets While Preserving T–D Interactions," in IEEE Transactions on Energy Markets, Policy and Regulation, doi: 10.1109/TEMPR.2026.3661757.
